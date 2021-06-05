@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+     
+     h1 {
+	  	text-align: center;	
+        font-size: 40px;
+        }
+
+	div{
+		margin: 0 0 15px 0;
+	  	border : none;
+	}
+
+	label {
+	  	display: inline-block;
+	  	width: 25%;
+	  	text-align: right;
+	  	margin: 10px
+	}
+
+   
+    
+    </style>
+
+
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <div class="container-fluid">
+        <form class="form-horizontal">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                        <small>IDENTIFICACIÓN DEL CLIENTE</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">NOMBRE DEL CLIENTE O EMPRESA:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">CIUDAD:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">FECHA (dd/mm/aaaa):</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="date">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">NOMBRE DEL USUARIO O SOLICITANTE:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">TIPO DE INFORME:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                        <small>OBJETO DEL INFORME</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">MOTIVO DE LA VERIFICACION:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">CALIDAD DE LA PERSONA A VERIFICAR:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                        <small>DATOS A VERIFICAR</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">1er NOMBRE:</span>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">2do NOMBRE:</span>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">3er NOMBRE:</span>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">PRIMER APELLIDO</span>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">SEGUNDO APELLIDO:</span>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">APELLIDO DE CASADA:</span>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">N° C.I. DEL TITULAR:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">ESTADO CIVIL:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">EXT:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">NIT:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">DIRECCION DOMICILIO(Dpto.):</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">CIUDAD:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">BARRIO:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">CALLE/AV./PJE.:</span>
+                         <span class="badge badge-default">ENTRE CALLE/AV./PJE:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">UV:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">N°:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">MZ:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">COD. UBICACION MED.LUZ:</span>
+                         <span class="badge badge-default">Y CALLE/AV./PJE.:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">REFERENCIA (en relación a la dirección):</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text"  class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">EDIFICIO:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">PISO:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">DEPARTAMENTO:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">TELEFONO(S):</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                         <span class="badge badge-default">CELULAR:</span>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                        <small>INFORME DE VERIFICACIÓN DE DOMICILIO</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">TIEMPO QUE HABITA :</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">PROPIEDAD:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">VIVE EN FORMA:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">NOMBRE DEL DUEÑO:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">GRUPO FAMILIAR DEPENDIENTE:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">TRABAJA EL SOLICITANTE :</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">LUGAR DE TRABAJO:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                        <small>CARACTERISITICAS DE LA VIVIENDA</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">CONSTRUCCIÓN:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text"class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">CANTIDAD DE PISOS:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text"class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">BARRIO:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">TECHO:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">VENTANAS:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">PISO:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">TIPO CALL/AV/PJE. :</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">ESTADO DE LA VIVIENDA:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">SERVICIOS BASICOS:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">OTROS SERVICIOS:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">COLOR DEL MURO:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">COLOR FACHADA DE LA CASA:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">MATERIAL Y COLOR DE LA PUERTA EXTERNA:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>
+                        <small>DATOS DEL INFORMANTE</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">RELACIÓN DEL INFORMANTE CON EL TITULAR:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text"class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">NOMBRE DEL INFORMANTE:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">EL INFORMANTE PRESENTÓ DOCUMENTO DE IDENTIDAD:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                 <span class="badge badge-default">INFORMANTE FIRMÓ:</span>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control">
+            </div>
+        </div>
+
+    </form>
+
+    </div>
+
+</body>
+</html>
